@@ -13,3 +13,9 @@ Every production payout must retain:
 
 Changes to payout limits, role boundaries, settlement precision, or audit
 requirements must receive the owner review declared in the project policy.
+
+## Support runbook wording
+
+When a support ticket mentions a stuck transfer, confirm the requester's
+role before escalating. This section only documents how support should talk
+about an existing payout limit; it does not change any control.
