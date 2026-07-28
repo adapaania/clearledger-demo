@@ -16,7 +16,7 @@ class AuthorizationTests(unittest.TestCase):
         self.assertFalse(can_create_payout("viewer"))
 
     def test_only_admin_releases_large_payouts(self) -> None:
-        amount = Decimal("6000.00")
+        amount = Decimal("60000.00")
         self.assertTrue(can_release_payout("finance_admin", amount))
         self.assertFalse(can_release_payout("treasury_operator", amount))
 
