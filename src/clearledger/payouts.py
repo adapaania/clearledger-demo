@@ -8,7 +8,7 @@ from decimal import ROUND_HALF_UP, Decimal
 from clearledger.authorization import can_create_payout, can_release_payout
 
 
-MAX_AUTOMATIC_PAYOUT = Decimal("5000.00")
+MAX_AUTOMATIC_PAYOUT = Decimal("50000.00")
 SUPPORTED_CURRENCIES = {"USD", "EUR", "GBP"}
 
 
