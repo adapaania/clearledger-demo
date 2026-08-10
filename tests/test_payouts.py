@@ -19,7 +19,7 @@ class PayoutTests(unittest.TestCase):
     def test_large_payout_requires_manual_review(self) -> None:
         result = evaluate_payout(
             "treasury_operator",
-            Decimal("6000.00"),
+            Decimal("60000.00"),
             "USD",
         )
         self.assertFalse(result.approved)

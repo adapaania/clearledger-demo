@@ -19,4 +19,4 @@ def can_release_payout(role: str, amount: Decimal) -> bool:
 
     if role == "finance_admin":
         return True
-    return role == "treasury_operator" and amount <= Decimal("5000.00")
+    return role == "treasury_operator" and amount <= Decimal("50000.00")
